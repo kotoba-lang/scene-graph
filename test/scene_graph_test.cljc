@@ -3,4 +3,4 @@
             [scene_graph]))
 (deftest namespace-loads
   (testing "the restored CLJC namespace loads"
-    (is (some? scene_graph))))
+    (is (some? (find-ns 'scene_graph)))))
