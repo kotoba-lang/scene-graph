@@ -8,7 +8,7 @@
 
 (deftest namespace-loads
   (testing "the restored CLJC namespace loads"
-    (is (some? (the-ns 'scene-graph)))))
+    (is (some? (find-ns 'scene-graph)))))
 
 ;; Ported 1:1 from Rust `#[test] fn test_scene_graph`:
 ;;   let root = world.spawn((Root, LocalTransform { position: Vec3::new(10.0, 0.0, 0.0), .. }));
