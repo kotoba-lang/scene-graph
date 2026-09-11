@@ -24,7 +24,7 @@ ECS-storage plumbing was adapted.
 
 ## Tests
 
-`test/scene_graph_test.cljc` ports the original Rust `#[test] fn test_scene_graph`
+`test/scene_graph_test.cljk` ports the original Rust `#[test] fn test_scene_graph`
 1:1 (root at `(10,0,0)`, child at `(5,0,0)`, expects composed world position
 `(15,0,0)`), plus a namespace-loads smoke test and additional coverage for
 `detach`, identity/default behavior, and multi-level hierarchies made easy to
