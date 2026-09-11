@@ -35,5 +35,5 @@ test by the plain-map adaptation.
 ## Develop
 
 ```bash
-clojure -M:test
+kbb -M:test
 ```
