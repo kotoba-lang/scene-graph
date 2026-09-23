@@ -3,7 +3,7 @@
   `kami-scene-graph/src/lib.rs` (kotoba-lang/kami-engine, deleted PR #82) 1:1,
   adapted for the hecs-ECS-to-plain-CLJC-map storage change, plus a namespace
   smoke test."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [scene-graph :as sg]))
 
 (deftest namespace-loads
